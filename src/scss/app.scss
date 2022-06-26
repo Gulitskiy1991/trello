@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // background: linear-gradient(#01d9fe, #1558f3);
+    background: url('../assets/bgImg.jpg');
+    background-size: cover;
+}
+.header__time{
+  display: flex;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__header {
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      padding: 1rem;
+      width: 70vw;
+      margin: 2rem 0;
+      background: #E0E3E9;
+      border: 1px solid black;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__tasks {
+      width: 70vw;
+      height: 75vh;
+      display: flex;
+      justify-content: space-between;
+        &__item {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          background: linear-gradient(225deg, rgb(70, 187, 151) 2%, rgb(223, 200, 227), rgb(126, 199, 206) 90%);
+          width: 20vw;
+          height: 100%;
+          border: 1px solid black;
+          border-radius: 5px;
+            &__todo {
+              display: flex;
+              padding: 5 5px;
+              justify-content: space-between;
+              background: #E0E3E9;
+              align-items: center;
+              border: 1px solid black;
+              border-radius: 5px;
+            }
+            &__add{
+              width: 100%;
+              background-color: #E2C7D9;
+              text-align: center;
+            }
+        }
+    }
+}

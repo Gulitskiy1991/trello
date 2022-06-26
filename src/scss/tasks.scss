@@ -1,0 +1,85 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: auto;
+}
+.labels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action {
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addpopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+
+}
+.formpopup {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #E2C7D9;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.formpopup * {
+    text-align: center;
+    margin: 0.5rem;
+}
+#description {
+    height: 150px;
+    border-radius: 10px;
+}
+#descriptionEdit {
+  height: 150px;
+  border-radius: 10px;
+}
+.vision {
+    display: none;
+}
+.todotask {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #E0E3E9;
+}
+.todotask + .todotask {
+    margin-top: 10px;
+}
+.btn-form {
+  margin: 0 5px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+
+}
+.select-priority {
+  height: 30px;
+  background: #ecddee;
+  border-radius: 10px;
+}
+.search {
+  height: 30px;
+  margin: 0 5px;
+}
+.sortSelect {
+  margin-right: 5px;
+  height: 30px;
+  border-radius: 10px;
+  background: #ecddee;
+}
+

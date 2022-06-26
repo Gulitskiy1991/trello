@@ -1,0 +1,31 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gulitskiy1991/trello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gulitskiy1991/trello/issues"
+  },
+  "homepage": "https://github.com/Gulitskiy1991/trello#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "parcel": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
